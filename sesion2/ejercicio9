@@ -1,0 +1,15 @@
+'''
+Escribir un programa sesion2/ejercicio9.py que pregunte una contraseña al usuario y la compare con un valor registrado en una constante, en caso de meter una contraseña errónea el programa enviará un mensaje de error.
+'''
+*********** Curso de programación acelerada en Python ************
+Date 04-08-2022
+File: sesion/ejercicio1.py
+Autor: Programador x
+Action: Introduce una contraseña
+'''
+key = "contraseña"
+password = input("Introduce la contraseña: ")
+if key == password.lower():
+    print("La contaseña coincide")
+else:
+    print("La contraseña no coincide")
